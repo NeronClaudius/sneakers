@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+h1 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 56px;
+    margin: 0;
+    padding: 0.4em;
+}
+
+h2 {
+  font-family: "Anonymous Pro", sans-serif;
+	font-size: 48px;
+}
+
+h3 {
+  font-family: "Anonymous Pro", sans-serif;
+	font-size: 26px;
+}
+
+p {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+}
+
+.hr {
+  border: 1px solid #e6e8ec2f;
+  margin: 0 60px;
+}
+
+.high-main-content {
+  display: flex;
+  justify-content: center;
+  background: #F1F1F1;
+}
+
+.header {
+  border-bottom: 1px solid gray;
+}
+
+.header-content {
+  display: flex;
+  margin: 20px;
+  justify-content: space-evenly;
+}
+
+.header-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.header-links a {
+  color: #000;
+  font: bold 20px "Anonymous Pro", sans-serif;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background: #F1F1F1;
+  color: #121723;
+  padding: 0 0 30px;
+}
+
+.container-title {
+  color: #121723;
+  line-height: 100%;
+  font: bold 26px "Anonymous Pro", sans-serif;
+}
+
+.container-text {
+  font: bold 20px "Anonymous Pro", sans-serif;
+  margin-top: -15px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  max-width: 1161px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  width: 370px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  border-radius: 0 0 12px 12px;
+  background: white;
+}
+
+.card-text {
+  align-self: stretch;
+  padding: 20px;
+}
+
+.footer {
+  background: #121723;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  justify-content: space-evenly;
+}
+
+.footer-links {
+  display: flex;
+  list-style: none;
+  margin-top: auto;
+}
+
+.footer-links a {
+  color:  #fff;
+  font: bold 20px "Anonymous Pro", sans-serif;
+  margin: 0 24px;
+  text-decoration: none;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: #A1A6B4;
+  font: bold "Anonymous Pro", sans-serif;
+}
+
+.footer-text p {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
