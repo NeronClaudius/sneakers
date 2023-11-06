@@ -1,0 +1,60 @@
+.sneak {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 5em;
+    padding: 50px;
+    margin: 2em 0 0;
+}
+
+.sneaker-big-img {
+    display: flex;
+    justify-content: center;
+}
+
+.sneaker-big-img img {
+    width: 1044px;
+}
+
+.sneak-text h1 {
+    font: 400 48px/48px "Anonymous Pro", sans-serif;
+    margin: 0;
+    padding: 0 0 25px;
+}
+
+.sneak-text h2 {
+    font: 400 36px/36px "Anonymous Pro", sans-serif;
+    margin: 0;
+    padding: 0 0 10px;
+}
+
+.page-text {
+    display: flex;
+    gap: 32px;
+}
+
+.page-description {
+    width: 506px;
+    font: 400 20px/28px "Anonymous Pro", sans-serif;
+}
+
+.page-info {
+    flex: 1;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+}
+
+.info-header {
+    font: 400 30px/30px "Anonymous Pro", sans-serif;
+    margin: 20px 0 10px;
+    padding: 0 0 10px;
+}
+
+.info-text {
+    font: 400 20px/20px "Anonymous Pro", sans-serif;
+    padding: 10px 0;
+}
